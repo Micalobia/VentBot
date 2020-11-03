@@ -1,4 +1,5 @@
 *.token
 *.vscode
+*.vs
 *.ropeproject
 *__pycache__
