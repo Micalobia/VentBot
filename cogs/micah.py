@@ -20,7 +20,7 @@ class Micah(commands.Cog):
         self.bot.reload_extension(' '.join(args))
     @commands.command("shutdown")
     async def shutdown_(self,ctx,*args):
-        sys.exit()
+        await self.bot.logout()
 
 def setup(bot: commands.Bot):
     bot.add_cog(Micah(bot))
