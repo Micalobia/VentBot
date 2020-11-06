@@ -1,4 +1,5 @@
 [
     "cogs.micah",
-    "cogs.settings"
+    "cogs.settings",
+    "cogs.venting"
 ]
