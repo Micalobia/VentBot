@@ -3,3 +3,5 @@
 *.vs
 *.ropeproject
 *__pycache__
+*.db
+*.backup
