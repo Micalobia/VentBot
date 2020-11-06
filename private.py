@@ -1,7 +1,7 @@
-from discord import Intents
+import discord
 from discord.ext.commands import Bot
 
-intents = Intents.default()
+intents = discord.Intents.default()
 intents.members = True
 bot = Bot(command_prefix='..', help_command=None, intents=intents)
 
